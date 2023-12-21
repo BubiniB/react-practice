@@ -7,11 +7,12 @@ import "./App.css";
 // import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 // import NestingComponents from "./components/NestingComponents";
 // import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
-import RenderingLists from "./components/RenderingLists";
+// import RenderingLists from "./components/RenderingLists";
+import ControlledForm from "./components/ControlledForm";
 
 function App() {
   return <div className="App">
-      <RenderingLists />
+      <ControlledForm />
   </div>;
 }
 
