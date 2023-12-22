@@ -9,11 +9,12 @@ import "./App.css";
 // import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 // import RenderingLists from "./components/RenderingLists";
 // import ControlledForm from "./components/ControlledForm";
-import UncontrolledForm from "./components/UncontrolledForm";
+// import UncontrolledForm from "./components/UncontrolledForm";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return <div className="App">
-      <UncontrolledForm />
+      <SearchBar />
   </div>;
 }
 
